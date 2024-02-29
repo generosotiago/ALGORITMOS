@@ -1,10 +1,12 @@
 package org.example;
 
-public class Circulo{
+public class Circulo {
     public static void main(String[] args) {
-        double salario = 4800;
-        int salarioMinimo = 1412;
-        double qtdSalario = salario / salarioMinimo;
-        System.out.println(qtdSalario);
+        double circleDiameter = 20;
+        double pi = 3.14;
+        double circleArea = pi * ((20 / 2))*(20 / 2);
+        System.out.println(circleArea);
+
     }
 }
+

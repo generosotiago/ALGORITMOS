@@ -10,13 +10,9 @@ public class calculadora {
         int multiplicacao = n1 * n2;
         int divisao = n1 / n2;
 
-        System.out.print("SOMA: ");
-        System.out.println(soma);
-        System.out.print("SUBTRACAO ");
-        System.out.println(subtracao);
-        System.out.print("MULTIPLICACAO ");
-        System.out.println(multiplicacao);
-        System.out.print("DIVISAO ");
-        System.out.println(divisao);
+        System.out.print("SOMA: " + soma);
+        System.out.print("SUBTRACAO " + subtracao);
+        System.out.print("MULTIPLICACAO " + multiplicacao);
+        System.out.print("DIVISAO " + divisao);
     }
 }
